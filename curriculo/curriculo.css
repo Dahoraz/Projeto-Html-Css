@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+--white:#fff;
+--dark1:#4B0082;
+--dark2:#8A2BE2;
+--dark3:#7B68EE;
+--dark4:#9370DB;
+--dark5:#9400D3;
+--plum:	#DDA0DD;
+}
+
+body
+{
+
+background-color: var(--dark3);
+height: 100vh;
+font-family: 'Lato';
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--dark1);
+    gap: 16px;
+    padding: 13px;
+    min-height: 1px;
+    align-items: center;
+}
+
+.img-logo {
+    max-width: 60px;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+nav{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav-links{
+text-decoration: none;
+color: var(--white);
+
+}
+
+.nav-links:hover{
+text-decoration: underline;
+color: var(--dark5);
+transition: .5s;
+}
+
+.box-btn-actions{
+    gap: 16px;
+    display: flex;
+}
+
+button{
+padding: .6rem;
+font-size: .9rem;
+border-radius: 6px;
+cursor: pointer;
+transition: .5s;
+}
+
+.btn-actions{
+
+    background-color: transparent;
+    color: var(--white);
+    border-color: var(--white);
+}
+.btn-actions:hover{
+background-color: var(--dark2);
+    
+}
+
+h1{
+   display: flex;
+   justify-content: center;
+   padding-right: 85px;
+   flex-wrap: wrap;
+   color: var(--plum);
+}
+
+h2{
+    color: var(--plum);
+}
+main > div {
+padding: 50px;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+flex-wrap: wrap;
+}
+
+ul2{
+    color: var(--white);
+    flex-wrap: wrap;
+    display: flex;
+    gap: 2rem;
+flex-direction: column;
+}
+p{
+    text-align: justify;
+    max-width: 600px;
+    color: var(--white);
+    flex-wrap: wrap;
+}
+
+ul{
+    color: var(--white);
+    flex-wrap: wrap;
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    flex-direction: column;
+    
+}
+
+h3{color: var(--plum);
+    padding-left: 50px;
+    font-size: 26px;
+ 
+}
+
+.pt{
+padding-left: 40px;
+
+}
+   
+.ing{
+    padding-left: 40px;
+
+}
+
+.Foto{
+    border-radius: 50%;
+    width: 100%;
+
+}
+
+.res{
+    display: flex;
+flex-direction: row;
+gap: 3rem;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+}

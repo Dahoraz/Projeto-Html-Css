@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta</title>
+    <link rel="stylesheet" href="proposta.css">
+</head>
+<body>
+    <header>
+        <div class="box-img-header">
+            <img class="img-logo" src="/Images/Logo RH.png" alt="Logo RH">
+        </div>
+        <nav>
+            <a href="/home.html" class="nav-links">Página Principal</a>
+        </nav>
+        <div class="box-btn-actions">
+            <button class="btn-actions" ilustrativo>Cadastrar</button>
+            <button class="btn-actions" ilustrativo>Entrar</button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h2 class="titulo">Faça Sua Proposta</h2>
+            <p>
+              <label for="pag">
+                <span>Tipo de Página:</span>
+              </label>
+              <select id="pag" name="tipodepagina">
+                <option value="est">Estática</option>
+                <option value="din">Dinâmica</option>
+                <option value="sup">Super Avançada</option>
+              </select>
+            </p>
+            <p>
+              <label for="number">
+                <span>Valor Proposto:</span>
+                <strong><abbr title="proposta">*</abbr></strong>
+              </label>
+              <input type="number" id="number" name="dinheiro"/>
+            </p>
+            <p>
+              <label for="data">
+                <span>Prazo Para a Entrega:</span>
+                <strong><abbr title="prazo">*</abbr></strong>
+                <em>Escolha Dia o Mês e Ano</em>
+              </label>
+              <input type="date" id="date" name="prazo" />
+            </p>
+          </section>
+          <p>Selecione Seu Sexo</p>
+          <div>
+          <input type="radio" id="Masc" name="sex" value="masculino">
+<label for="html">Masculino</label><br>
+<input type="radio" id="fem" name="sex" value="feminino">
+<label for="css">Feminino</label><br>
+</div>
+<div>
+<p>Caso Queira Mais De Um Tipo Selecione Aqui</p>
+<div class="check">
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="tipo1">Estática</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="tipo2">Dinâmica</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="tipo3">Super Avançada</label><br>
+</div>
+</div>
+          <p class="sub"><button id="submit" type="submit">Enviar Proposta</button></p>
+        
+</body>
+</html>

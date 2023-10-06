@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --white: #fff;
+    --dark1: #4B0082;
+    --dark2: #8A2BE2;
+    --dark3: #7B68EE;
+    --dark4: #9370DB;
+    --dark5: #9400D3;
+    --plum: #DDA0DD;
+}
+
+body {
+
+    background-color: var(--dark3);
+    height: 100vh;
+    font-family: 'Lato';
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--dark1);
+    gap: 16px;
+    padding: 13px;
+    min-height: 1px;
+    align-items: center;
+}
+
+.img-logo {
+    max-width: 60px;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+nav {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: var(--white);
+
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+    color: var(--dark5);
+    transition: .5s;
+}
+
+.box-btn-actions {
+    gap: 16px;
+    display: flex;
+}
+
+button,
+.link-action {
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn-actions {
+
+    background-color: transparent;
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.btn-actions:hover {
+    background-color: var(--dark2);
+
+}
+
+table{
+    border-color: var(--dark1);
+    border-width: 10px;
+}
+tr{
+    text-align: center;
+    color: var(--plum);
+   font-size: 20px;
+   letter-spacing: 2px;
+
+}
+
+.Preços{
+    color: black;
+    font-size: 30px;
+}
+
+.tabel{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 200px;
+}
